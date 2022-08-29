@@ -1,7 +1,6 @@
 import React from "react";
 
-class ArchiveNotes extends React.Component {
-  render() {
+function ArchiveNotes(){
     return (
 
           <div className="pb-5">
@@ -12,6 +11,5 @@ class ArchiveNotes extends React.Component {
 
     );
   }
-}
 
 export default ArchiveNotes;

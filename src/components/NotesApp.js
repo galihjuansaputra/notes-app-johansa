@@ -4,8 +4,8 @@ import AddNotes from "./AddNotes";
 import Footer from "./Footer";
 import ActiveNotes from "./ActiveNotes";
 
-class NotesApp extends React.Component {
-  render() {
+function NotesApp(){
+
     return (
       <div className=" bg-zinc-800">
         <HeaderSearch/>
@@ -15,6 +15,5 @@ class NotesApp extends React.Component {
       </div>
     );
   }
-}
 
 export default NotesApp;
