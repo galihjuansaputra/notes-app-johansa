@@ -1,8 +1,9 @@
 import React from "react";
-import ActiveNotes from "./ActiveNotes";
 import ArchiveNotes from "./ArchiveNotes";
 
-function AddNotes(){
+class AddNotes extends React.Component{
+  
+  render(){
     return (
         <div className="flex flex-col sm:flex-row p-5 bg-zinc-900">
           <div className="basis-1/4 self-center">
@@ -30,5 +31,6 @@ function AddNotes(){
         </div>
     );
   }
+}
 
 export default AddNotes;
