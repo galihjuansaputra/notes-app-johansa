@@ -1,6 +1,6 @@
 import React from "react";
 
-function HeaderSearch() {
+function Header() {
 
     return (
       <div className="flex flex-col sm:flex-row justify-between p-5">
@@ -9,17 +9,8 @@ function HeaderSearch() {
             Notes App
           </h1>
         </div>
-        <div className="self-center">
-          <form>
-            <input
-              type="text"
-              className="p-2 w-64"
-              placeholder="Cari catatan..."
-            />
-          </form>
-        </div>
       </div>
     );
   }
 
-export default HeaderSearch;
+export default Header;
